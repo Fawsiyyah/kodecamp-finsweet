@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+}
+
+.road-assistance {
+    display: flex;
+    padding-left: 20px;
+}
+
+.right-section ul li {
+    margin-right: 20px;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.right-section .navigation {
+    border-right: 2px solid #ccc;
+}
+
+.road-assistance .icon {
+    margin-right: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+#hero-section .text-section{
+    width: 45%;
+} 
+
+#hero-section .image-section {
+    width: 55%;
+}
+
+#hero-section, #quote-section {
+    padding: 80px 0;
+}
+
+#hero-section .image-section {
+    background-image: url(https://res.cloudinary.com/muuba/image/upload/v1650391219/Header_Image_fzqpea.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 68vh;
+}
+
+.text-section h1 {
+    font-size: 64px;
+}
+
+.orange-btn {
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 35px;
+    display: inline-block;
+    color: #fff;
+}
+
+.time-section {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.text-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-section .time-text {
+    width: 95%;
+}
+.time-section img {
+    width: 100%;
+}
+
+.light-grey {
+    color: #939191;
+}
+
+#quote-section {
+    background: #E2E6E9;
+}
+
+#quote-section .left-section, #quote-section .right-form-section {
+    width: 50%;
+}
+
+#quote-section ul {
+    list-style: none;
+}
+
+#quote-section ul li {
+    margin-bottom: 20px;
+}
+
+#quote-section .left-section h2 {
+    margin-bottom: 30px;
+    font-size: 58px;
+}
+
+#quote-section .left-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+}
+
+#quote-section .left-section .image-box img {
+    width: 100%;
+}
+
+
+#quote-section .left-section .text-box {
+    width: 50%;
+}
+
+#quote-section .left-section .text-box h5 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#quote-section .right-form-section h3{
+    font-size: 48px;
+}
+
+#quote-section .right-form-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#quote-section .left-section .arrow-span {
+ display: flex;
+ align-items: center; 
+}
+
+.flex-1 {
+display: flex;
+justify-content: space-evenly;
+  }
+.left-process {
+width: 40%;
+}
+
+ .right-process {
+width: 45%;
+margin-left: 60px;
+}
+
+#Booking-section ul li{
+  list-style:none;
+  margin-bottom:20pX;
+}
+
+.left-process h2 {
+margin-bottom: 30px;
+font-size: 58px;
+}
+
+.left-process p {
+font-size: 16px;
+width: 74%;
+  }
+
+.right-process .text-box {
+width: 50%;
+margin-bottom: 10px;
+}
+
+.right-process .text-box h5{
+  font-size:24px;
+  margin-bottom:20px;
+  }
+
+.right-process .image-box {
+width: 10%;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+.right-process .image-box img {
+width: 100%;
+}
+
+.right-process ul{
+  list-style:none;
+}
+
+
+#Booking-section {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  }
+
+.purple{
+width: 0;
+height: 50%;
+border-left: 4px dotted #FF6433;
+margin-left: 22px;
+margin-bottom: 13px;
+}
+
+#offer-section {
+  background-color: #F2F2F2;
+  }
+  
+.flex-offer {
+display: flex;
+  justify-content: center;
+}
+
+.offer-header h2 {
+  font-size: 58px;
+  text-align: center;
+}
+.offer-header p {
+  font-size: 24px;
+  text-align: center
+}
+
+.service-offer{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 100%;
+margin-top: 40px;
+}
+
+#offer-section .service-offer img {
+  width: 100%;
+  }
+.service-offer .service-rendered {
+  width: 24.5%;
+}
+.learn{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.learn a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+
+
+#query-section {
+
+  background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image_1_l8sfa3.png") left no-repeat, url("https://res.cloudinary.com/muuba/image/upload/v1650470087/ovGrEUgrkyE_d8hnjt.png") right no-repeat;
+ min-height: 100vh;
+  background-size: 50%;
+  background-color:#F2F2F2;
+  position: relative;
+}
+
+.query-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .query-contact {
+  background: #FF6433;
+  width: 65.8%;
+  height: auto;
+padding: 87.10px;
+  margin-top: 135px;
+  margin-right: 125px;
+   }
+
+.query-contact h3 {
+  font-size: 48px;
+  color: white;
+}
+
+.query-contact button {
+  padding: 14px;
+  border-radius: 9px;
+  border: none;
+  background: #1E1B1B;
+  color: white;
+  margin-top: 29px;
+}
+
+#query-section .experience {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+#query-section .experience p {
+  font-size: 24px;
+}
+
+.brand-header{
+  display: flex;
+  justify-content: center;
+}
+.brand-header h3 {
+  font-size: 48px;
+  text-align: center;
+}
+.brand-images-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.brand-images-section .brand-images{
+  width: 20%;
+}
+
+.brand-images-section .brand-images img{
+  width: 100px;
+}
+
+
