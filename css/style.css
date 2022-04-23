@@ -277,15 +277,14 @@ margin-top: 40px;
 
 
 #query-section {
-
-  background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image_1_l8sfa3.png") left no-repeat, url("https://res.cloudinary.com/muuba/image/upload/v1650470087/ovGrEUgrkyE_d8hnjt.png") right no-repeat;
- min-height: 100vh;
+background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image_1_l8sfa3.png") left no-repeat, url("https://res.cloudinary.com/muuba/image/upload/v1650470087/ovGrEUgrkyE_d8hnjt.png") right no-repeat;
+  min-height: 100vh;
   background-size: 50%;
   background-color:#F2F2F2;
   position: relative;
 }
 
-.query-container {
+ .query-1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -294,8 +293,8 @@ margin-top: 40px;
  .query-contact {
   background: #FF6433;
   width: 65.8%;
-  height: auto;
-padding: 87.10px;
+  height: 56vh;
+  padding: 87.10px;
   margin-top: 135px;
   margin-right: 125px;
    }
