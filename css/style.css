@@ -84,6 +84,7 @@
     margin-top: 35px;
     display: inline-block;
     color: #fff;
+    border: none;
 }
 
 .time-section {
@@ -137,6 +138,10 @@
     margin-right: 10px;
 }
 
+.text-box .arrow-span{
+  text-decoration: none;
+}
+
 #quote-section .left-section .image-box img {
     width: 100%;
 }
@@ -166,9 +171,12 @@
  align-items: center; 
 }
 
+
 .flex-1 {
 display: flex;
 justify-content: space-evenly;
+padding-top: 100px;
+padding-bottom: 100px;
   }
 .left-process {
 width: 40%;
@@ -219,8 +227,10 @@ width: 100%;
 
 
 #Booking-section {
+  padding-top: 100px;
   margin-top: 25px;
   margin-bottom: 25px;
+  padding-bottom: 100px;
   }
 
 .purple{
@@ -232,6 +242,7 @@ margin-bottom: 13px;
 }
 
 #offer-section {
+  padding-top: 100px;
   background-color: #F2F2F2;
   }
   
@@ -293,7 +304,7 @@ background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image
  .query-contact {
   background: #FF6433;
   width: 65.8%;
-  height: 56vh;
+  height:56vh;
   padding: 87.10px;
   margin-top: 135px;
   margin-right: 125px;
@@ -324,8 +335,13 @@ background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image
 }
 
 .brand-header{
+  padding-top: 100px;
   display: flex;
   justify-content: center;
+}
+
+.container-1{
+  padding-bottom: 100px;
 }
 .brand-header h3 {
   font-size: 48px;
