@@ -301,6 +301,12 @@ background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image
   position: relative;
 }
 
+#experience-section{
+  position: relative;
+  background-color:#F2F2F2;
+  background-size: 50%;
+}
+
  .query-1 {
   display: flex;
   justify-content: center;
@@ -330,13 +336,13 @@ background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image
   margin-top: 29px;
 }
 
-#query-section .experience {
+#experience-section .experience {
   display: flex;
   justify-content: space-around;
   padding: 30px;
 }
 
-#query-section .experience p {
+#experience-section .experience p {
   font-size: 24px;
 }
 
@@ -388,7 +394,7 @@ background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image
 }
 
 #customer-section .slide-container .slides{
-  width: 85%;
+  width: 45%;
   margin-left: 49px;
   margin-right: 49px;
 }
@@ -397,16 +403,17 @@ background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image
  width: 100%;
 }
 
-#customer-section .dash-section {
+
+ .dash-section {
   position: absolute;
-  top: 62%;
-  left: 42%;
+  top: 100%;
+  bottom: 100%;
 }
 
-#customer-section .left-rigt{
-  position: absolute;
-  top: 60%;
-  right: 4%;
+ .left-rigt{
+  position: relative;
+  left: 50%;
+  right: 50%;
 }
 
 #asked-question {
@@ -420,9 +427,6 @@ background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image
   text-align: center;
 }
 
-.questions-body{
-  text-align: center;
-}
 
 input[type='checkbox'] {
   display: none;
@@ -430,7 +434,6 @@ input[type='checkbox'] {
 
 .lbl-toggle {
   display: block;
-  text-align: center;
   padding: 1rem;
   color: black;
   background: white;
