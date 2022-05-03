@@ -242,8 +242,14 @@ margin-bottom: 13px;
 }
 
 #offer-section {
-  padding-top: 100px;
+  padding: 80px 0;
   background-color: #F2F2F2;
+  min-height: 100vh;
+  }
+  
+  #offer-section .service-offer .service-rendered:hover{
+    background: red;
+    color: white;
   }
   
 .flex-offer {
