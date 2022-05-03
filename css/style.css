@@ -360,4 +360,77 @@ background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image
   width: 100px;
 }
 
+#customer-section .customer-header h3{
+  font-size:48px;
+  text-align: center;
+}
 
+#customer-section .slide-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+#customer-section .slide-container{
+  position: relative;
+}
+
+#customer-section .slide-container .slides{
+  img{
+    width: 100%;
+}
+
+#customer-section .dash-section{
+  position: absolute;
+  top: 62%;
+  left: 42%;
+}
+
+#customer-section .left-rigt{
+  position: absolute;
+  top: 60%;
+  right: 4%;
+}
+
+#asked-question {
+  background-color:grey;
+}
+
+
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible: hover {
+  background-color:#555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  max-height: 0;
+  overflow: hidden;
+  background-color: white;
+  transition: max-height 0.2s ease-out;
+}
+
+.collapsible ::after {
+  content: '\02795';
+  font-size: 13px;
+  color:white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content:"\2796";
+}
