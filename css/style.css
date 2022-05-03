@@ -498,7 +498,7 @@ input[type='checkbox'] {
 
 #footings {
   background-color: black;
-  color: gray;
+  color: white;
   padding-bottom: 50px;
 }
 
@@ -508,7 +508,9 @@ input[type='checkbox'] {
   text-decoration: none;
 }
 
-
+.copy{
+  color: gray;
+}
 .navigation { 
   display: flex;
   align-items: center;
