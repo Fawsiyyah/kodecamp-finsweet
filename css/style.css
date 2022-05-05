@@ -347,13 +347,7 @@ background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image
   flex-wrap: wrap;
 }
 
-.brand-images-section .brand-images{
-  width: 20%;
-}
 
-.brand-images-section .brand-images img{
-  width: 100px;
-}
 
 #customer-section {
   padding-top: 50px;
@@ -647,4 +641,37 @@ input[type='checkbox'] {
   .offer-header h2 {
     font-size: 35px;
   }
+
+  .query-1 {
+    flex-direction: column;
+  }
+
+  #experience-section .experience {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #experience-section .experience-img, #experience-section .experience-texts {
+    margin-bottom: 30px;
+  }
+  
+  .brand-images-section {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .brand-header h3 {
+    font-size: 35px;
+    width: 100%;
+  }
+
+  .customer-header h3{
+    font-size: 35px;
+    width: 100%;
+}
+
+#customer-section .slide-container {
+  flex-direction: column;
+    margin-bottom: 30px;
+}
 }
