@@ -398,10 +398,11 @@ background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image
   bottom: 100%;
 }
 
+
  .left-rigt{
-  position: relative;
-  left: 50%;
-  right: 50%;
+  position:relative;
+  top: 50%;
+  bottom: 50%;
 }
 
 #asked-question {
@@ -422,16 +423,33 @@ input[type='checkbox'] {
 
 .lbl-toggle {
   display: block;
-  padding: 1rem;
+  padding: 20px;
   color: black;
   background: white;
   cursor: pointer;
   border-radius: 7px;
   transition: all 0.25s ease-out;
+  margin-bottom: 10px;
 }
 
 .lbl-toggle:hover {
-  color: gray;
+  color: black;
+}
+.wrap-collapsible .lbl-toggle{
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+}
+.wrap-collapsible{
+  width: 60%;
+  border: 1px;
+ max-height: 100%;
+  margin: 0 auto;
+}
+
+.content-image{
+  height: 60px;
+  width: 60px;
 }
 
 .lbl-toggle::before {
@@ -447,7 +465,7 @@ input[type='checkbox'] {
 }
 
 .collapsible-content .content-inner {
-  background: rgba(250, 224, 66, .2);
+  background-color:  #939191;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
   padding: .5rem 1rem;
@@ -475,11 +493,10 @@ input[type='checkbox'] {
 #service-section {
   background-color: black;
   color: white;
+  margin-bottom: 10px;
 }
 
-.lbl-toggle {
-  box-sizing: 70%;
-}
+
 
 .left-side h3 {
   font-size: 48px;
