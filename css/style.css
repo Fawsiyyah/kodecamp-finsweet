@@ -454,7 +454,8 @@ input[type='checkbox'] {
 }
 
 .collapsible-content .content-inner {
-  background-color:  #939191;
+  background-color: white;
+  color: lightgray;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
   padding: .5rem 1rem;
@@ -673,5 +674,14 @@ input[type='checkbox'] {
 #customer-section .slide-container {
   flex-direction: column;
     margin-bottom: 30px;
+}
+
+.question-header h3{
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.questions-body {
+  width: 100%;
 }
 }
