@@ -421,13 +421,17 @@ input[type='checkbox'] {
   margin-bottom: 10px;
 }
 
+.lbl{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
 .lbl-toggle:hover {
   color: black;
 }
 .wrap-collapsible .lbl-toggle{
-  display: flex;
-  justify-content: space-between;
-  text-align: justify;
+ 
+
 }
 .wrap-collapsible{
   width: 60%;
@@ -459,6 +463,7 @@ input[type='checkbox'] {
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
   padding: .5rem 1rem;
+  
 }
 
 .collapsible-content {
@@ -519,7 +524,8 @@ input[type='checkbox'] {
 }
 
 .copy{
-  color: gray;
+  color: #FFFFFF;
+  opacity: 0.6;;
 }
 .navigation { 
   display: flex;
@@ -683,5 +689,32 @@ input[type='checkbox'] {
 
 .questions-body {
   width: 100%;
+}
+
+.flex-1 {
+  flex-direction: column;
+}
+
+.left-side h3 {
+  font-size: 35px;
+}
+
+.navigation {
+  flex-direction: column;
+}
+
+.rights ul {
+  flex-direction: column;
+  width: 100%;
+}
+
+
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.navigation ul li{
+  margin-bottom: 20px;
 }
 }
