@@ -606,7 +606,7 @@ input[type='checkbox'] {
     width: 80%;
   }
 
-  #quote-section .left-section h2, #quote-setion .right-form-section h3{
+  #quote-section .left-section h2 {
     font-size: 35px;
   } 
 
@@ -615,10 +615,25 @@ input[type='checkbox'] {
   }
 
   #quote-setion .right-form-section h3 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    font-size: 35px;
   }
 
   #Booking-section .left-process, #Booking-section .right-process {
     width: 100%;
   }
+  #Booking-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .left-process h2 {
+    font-size: 35px;
+  }
+
+  .left-process p {
+    width: 100%;
+  }
+
+ 
 }
