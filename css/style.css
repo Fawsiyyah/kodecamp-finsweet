@@ -229,50 +229,46 @@ margin-bottom: 13px;
 
 #offer-section {
   padding: 80px 0;
-  background-color: #F2F2F2;
+  background-color: #E2E6E9;
   min-height: 100vh;
   }
-  
-  #offer-section .service-offer .service-rendered:hover{
-    background: red;
-    color: white;
+
+  #offer-section h2, #offer-section h5{
+    text-align: center;
+  }
+
+  #offer-section .offers .offer-box{
+    background: white;
+    height: 232px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    margin-bottom: 12px;
+  }
+
+  #offer-section .offers {
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 15px;
+
   }
   
-.flex-offer {
-display: flex;
-  justify-content: center;
-}
+  #offer-section .offers .offer-box:hover{
+    background: #FF6433;
+    color: white;
+  }
 
-.offer-header h2 {
-  font-size: 58px;
-  text-align: center;
-}
-.offer-header p {
-  font-size: 24px;
-  text-align: center
-}
-
-.service-offer{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-width: 100%;
-margin-top: 40px;
-}
-
-.service-offer .service-rendered {
-  width: 24.5%;
-}
-.learn{
+.learn-arrow{
   display: flex;
   justify-content: flex-end;
-  margin-top: 20px;
 }
 
-.learn a {
+.learn-arrow a {
+  display: flex;
   text-decoration: none;
   color: black;
-  margin-right: 10px;
 }
 
 
@@ -423,15 +419,16 @@ input[type='checkbox'] {
 
 .lbl{
   display: flex;
+  align-items: flex-start;
   justify-content: space-between;
   width: 100%;
 }
+
 .lbl-toggle:hover {
   color: black;
 }
 
 .wrap-collapsible{
-  width: 60%;
   border: 1px;
  max-height: 100%;
   margin: 0 auto;
@@ -713,5 +710,9 @@ input[type='checkbox'] {
 
 .navigation ul li{
   margin-bottom: 20px;
+}
+
+.question{
+  width: 100%;
 }
 }
