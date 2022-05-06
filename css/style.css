@@ -484,7 +484,7 @@ input[type='checkbox'] {
 #service-section {
   background-color: black;
   color: white;
-  margin-bottom: 1px;
+  margin-bottom: 1 px;
 }
 
 
@@ -811,4 +811,15 @@ input[type='checkbox'] {
   flex-direction: column;
     width: 100%;
 }
+
+#offer-section h2 {
+  font-size: 35px;
+    width: 100%;
 }
+
+#offer-section h5{
+width: 100%;
+}
+
+}
+
