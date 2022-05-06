@@ -235,6 +235,10 @@ margin-bottom: 13px;
 
   #offer-section h2, #offer-section h5{
     text-align: center;
+    font-size: 20px;
+  }
+  #offer-section h2{
+    font-size: 70px;
   }
 
   #offer-section .offers .offer-box{
@@ -529,6 +533,34 @@ input[type='checkbox'] {
 .rights ul {
   list-style: none;
   display: flex;
+}
+
+#Our-services .serviced1 {
+  background: url(../img/1st\ service.png) no-repeat;
+  min-height: 68vh;
+}
+
+.serviced1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.service-textcar{
+  background: #000;
+  color: #F2F2F2;
+   width: 733px;
+  }
+
+.service-textcar h2 {
+  font-size: 64px;
+  width: 374px;
+  margin-bottom: 40px;
+}
+
+.service-textcar p{
+  font-size: 18px;
+  width: 541px;
+  margin-bottom: 40px;
 }
 
 
