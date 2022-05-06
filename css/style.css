@@ -540,6 +540,10 @@ input[type='checkbox'] {
   min-height: 68vh;
 }
 
+#Our-services {
+  background-color: white;
+}
+
 .serviced1 {
   display: flex;
   justify-content: space-around;
@@ -562,6 +566,53 @@ input[type='checkbox'] {
   width: 541px;
   margin-bottom: 40px;
 }
+
+#auto-diagnostics {
+  background: #F5F5F5;
+  
+}
+
+#auto-diagnostics .diagnostics {
+  border: 1px solid white;
+  background: white;
+  height: 760px;
+  width: 624px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+#auto-diagnostics .image-diagnostics {
+ padding: 10px 20px 10px 20px;
+}
+
+#auto-diagnostics .text-diagnostics h2{
+  height: 67px;
+  width: 519px;
+  font-size: 48px;
+}
+
+
+#auto-diagnostics .text-diagnostics p {
+  height: 67px;
+  width: 519px;
+  font-size: 24px;
+  color: #232536;
+}
+
+.diagnostics-arrow {
+  display: flex;
+  margin-bottom: 576px;
+ 
+}
+
+.diagnostics-arrow a {
+  display: flex;
+  text-decoration: none;
+  color: #000;
+}
+
 
 
 @media(max-width: 426px) {
