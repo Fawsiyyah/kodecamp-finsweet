@@ -343,14 +343,31 @@ background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image
   flex-wrap: wrap;
 }
 
+#testimony-section .custom-header{
+  text-align: center;
+  font-size: 48px;
+}
+
+#testimony-section .testimonials{
+  display: flex;
+  justify-content: space-between;
+}
+
 
 #testimony-section {
   min-height: 100vh;
   padding: 80px 0;
+  background: #F2F2F2;
+}
+
+#testimony-section  .testimony-person{
+  display: flex;
+  justify-content:flex-start;
 }
 
 #testimony-section .testimony-slide {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin: 30px 0;
 }
@@ -362,6 +379,15 @@ background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image
   border: 1px solid rgba(172, 172, 172, 0.29);
   box-shadow: 11px 130px 100px 30px rgba(0, 0, 0, 0.02);
   border-radius: 6px;
+}
+
+#testimony-section .bottom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.liner{
+  
 }
 
 #asked-question {
