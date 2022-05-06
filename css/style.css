@@ -390,8 +390,8 @@ background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image
 
  .left-rigt{
   position:relative;
-  top: 50%;
-  bottom: 50%;
+  top: 100%;
+  left: 100%;
 }
 
 #asked-question {
@@ -429,10 +429,7 @@ input[type='checkbox'] {
 .lbl-toggle:hover {
   color: black;
 }
-.wrap-collapsible .lbl-toggle{
- 
 
-}
 .wrap-collapsible{
   width: 60%;
   border: 1px;
