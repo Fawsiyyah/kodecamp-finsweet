@@ -248,7 +248,6 @@ margin-bottom: 13px;
     justify-items: center;
     align-items: center;
     text-align: center;
-    width: 25%;
     margin-bottom: 12px;
   }
 
@@ -377,7 +376,6 @@ background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image
 }
 
 #testimony-section .testimony-slide {
-  width: 45%;
   background: #FFFFFF;
   padding: 30px;
   border: 1px solid rgba(172, 172, 172, 0.29);
@@ -486,7 +484,7 @@ input[type='checkbox'] {
 #service-section {
   background-color: black;
   color: white;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
 }
 
 
@@ -797,5 +795,20 @@ input[type='checkbox'] {
 
 .question{
   width: 100%;
+}
+
+#offer-section .offers {
+  flex-direction: column;
+    width: 100%;
+}
+
+.custom-header h3 {
+  font-size: 35px;
+    width: 100%;
+}
+
+#testimony-section .testimonials {
+  flex-direction: column;
+    width: 100%;
 }
 }
