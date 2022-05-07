@@ -558,8 +558,7 @@ input[type='checkbox'] {
 
 #Our-services .serviced1 {
   background: url(../img/1st\ service.png) no-repeat;
-  min-height: 68vh;
-  background-position: right;
+  background-position: left;
 }
 
 #Our-services {
@@ -575,6 +574,10 @@ input[type='checkbox'] {
   background: #000;
   color: #F2F2F2;
    width: 733px;
+   text-align:justify;
+   padding-left: 60px;
+   padding-top: 40px;
+   padding-bottom: 60px;
   }
 
 .service-textcar h2 {
@@ -599,10 +602,11 @@ input[type='checkbox'] {
   background: white;
   height: 760px;
   width: 624px;
-  margin-left: 80px;
+  margin-left: 40px;
+  margin-top: 40px;
   margin-right: 80px;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  padding-top: 50px;
+  margin-bottom: 50px;
 }
 
 #auto-diagnostics .image-diagnostics {
@@ -626,6 +630,7 @@ input[type='checkbox'] {
 .diagnostics-arrow {
   display: flex;
   margin-bottom: 576px;
+  padding-top: 80px;
  
 }
 
@@ -634,6 +639,66 @@ input[type='checkbox'] {
   text-decoration: none;
   color: #000;
 }
+
+#auto-diagnostics .offers .offer-box{
+  background: white;
+  height: 232px;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 12px;
+  width: 49%;
+}
+
+#auto-diagnostics .offers {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+#auto-diagnostics .offers .offer-box:hover{
+  background: #FF6433;
+  color: white;
+}
+
+#auto-diagnostics .auto-diagnosed {
+  display: flex;
+  justify-content: space-between;
+}
+
+#work-process {
+  width: 45%;
+}
+
+#work-process .text-work h3 {
+    font-size: 48px;
+}
+
+#work-process .texts {
+  margin-top: 20px;
+}
+
+#work-process .flex .text-checks{
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+#work-process .car-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-1{
+  margin-top: 60px;
+  width: 304px;
+}
+
+#work-process .work-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 
 /*tablet-view*/
@@ -909,4 +974,3 @@ width: 100%;
 }
 
 }
-
