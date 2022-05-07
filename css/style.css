@@ -244,18 +244,23 @@ margin-bottom: 13px;
   #offer-section .offers .offer-box{
     background: white;
     height: 232px;
-    display: flex;
     justify-items: center;
     align-items: center;
     text-align: center;
     margin-bottom: 12px;
+    width: 24%;
+  }
+
+  .justify-between{
+    justify-content: space-between;
   }
 
   #offer-section .offers {
+    display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
     margin-bottom: 15px;
-
+    
   }
   
   #offer-section .offers .offer-box:hover{
@@ -275,47 +280,57 @@ margin-bottom: 13px;
 }
 
 
-#query-section {
+/*#query-section {
 background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image_1_l8sfa3.png") left no-repeat, url("https://res.cloudinary.com/muuba/image/upload/v1650470087/ovGrEUgrkyE_d8hnjt.png") right no-repeat;
-  min-height: 100vh;
   background-size: 50%;
   background-color:#F2F2F2;
-  position: relative;
+  position: relative;*/
+
+
+#tools-section {
+   height: 500px;
+   display: flex;
+}
+
+ #tools-section .car-section {
+  width: 40%;
+  height: 500px;
+  background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image_1_l8sfa3.png") no-repeat;
+  background-size: cover;
+  background-position: left;
+   }
+
+#tools-section .orange-section {
+  width: 40%;
+  background: #FF6433;
+  height: 500px;
+}
+
+.orange-section h3{
+  font-size: 40px;
+  color: white;
+}
+
+.orange-section button {
+  background: #000;
+  color: white;
+  border-radius: 9px;
+  border: none;
+  padding: 14px;
+  margin-top: 29px;
+}
+#tools-section .auto-section{
+  width: 40%;
+  height: 500px;
+  background: url("https://res.cloudinary.com/muuba/image/upload/v1650470087/ovGrEUgrkyE_d8hnjt.png")no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #experience-section{
   position: relative;
   background-color:#F2F2F2;
   background-size: 50%;
-}
-
- .query-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
- .query-contact {
-  background: #FF6433;
-  width: 65.8%;
-  height:56vh;
-  padding: 87.10px;
-  margin-top: 135px;
-  margin-right: 125px;
-   }
-
-.query-contact h3 {
-  font-size: 48px;
-  color: white;
-}
-
-.query-contact button {
-  padding: 14px;
-  border-radius: 9px;
-  border: none;
-  background: #1E1B1B;
-  color: white;
-  margin-top: 29px;
 }
 
 #experience-section .experience {
@@ -332,6 +347,7 @@ background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image
   padding-top: 100px;
   display: flex;
   justify-content: center;
+  
 }
 
 .container-1{
@@ -341,9 +357,19 @@ background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image
   font-size: 48px;
   text-align: center;
 }
-.brand-images-section {
+
+.brand-images-section  {
   display: flex;
   flex-wrap: wrap;
+  
+}
+
+.brand-images-section .brand-images{
+  width: 20%;
+}
+
+.brand-images-section .brand-images img{
+  width: 100%;
 }
 
 #testimony-section .custom-header{
@@ -376,6 +402,7 @@ background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image
 }
 
 #testimony-section .testimony-slide {
+  width: 45%;
   background: #FFFFFF;
   padding: 30px;
   border: 1px solid rgba(172, 172, 172, 0.29);
@@ -383,14 +410,10 @@ background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image
   border-radius: 6px;
 }
 
-#testimony-section .bottom{
-  display: flex;
-  justify-content: space-between;
+#testimony-section .bottom .sliders{
+  align-items: left;
 }
 
-.liner{
-  
-}
 
 #asked-question {
   background-color:#F2F2F2;
@@ -536,6 +559,7 @@ input[type='checkbox'] {
 #Our-services .serviced1 {
   background: url(../img/1st\ service.png) no-repeat;
   min-height: 68vh;
+  background-position: right;
 }
 
 #Our-services {
@@ -612,6 +636,46 @@ input[type='checkbox'] {
 }
 
 
+/*tablet-view*/
+@media (max-width:769px) and (min-width:426px) {
+  .road-assistance{
+    display:none;
+  }
+
+  .container{
+    width: 90%;
+  }
+
+  .text-section h1, #quote-section .left-section h2, #quote-section .right-form-section h3, .left-process h2, #offer-section h2, .brand-header h3, .question-header h3, .left-side h3 {
+    font-size: 35px;
+  }
+
+  #quote-section .left-section .image-box, .right-process .image-box{
+    width: 15%;
+  }
+  
+  #offer-section .offers .offer-box{
+    width: 32%;
+  }
+  
+#quote-section .left-section .text-box {
+  width: 70%;
+}
+
+.custom-header h3{
+  font-size: 50%;
+}
+
+
+.lbl-toggle .lbl{
+  font-size: 30px;
+}
+
+.copy {
+  display: none;
+}
+
+}
 
 @media(max-width: 426px) {
   .main-header {
@@ -802,9 +866,25 @@ input[type='checkbox'] {
     width: 100%;
 }
 
+#offer-section .offers .offer-box{
+  width: 100%;
+}
+
+#tools-section{
+  flex-direction: column;
+}
+
+#tools-section .car-section, #tools-section .orange-section, #tools-section .auto-section{
+  width: 100%;
+}
+
+
 .custom-header h3 {
   font-size: 35px;
     width: 100%;
+}
+.brand-images-section .brand-images {
+  width: 100%;
 }
 
 #testimony-section .testimonials {
@@ -812,6 +892,13 @@ input[type='checkbox'] {
     width: 100%;
 }
 
+#testimony-section .testimony-slide{
+  width: 100%;
+}
+
+#testimony-section .testimony-slide .testimony-person .person-info{
+  width: 70%;
+}
 #offer-section h2 {
   font-size: 35px;
     width: 100%;
