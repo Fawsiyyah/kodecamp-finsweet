@@ -678,11 +678,10 @@ input[type='checkbox'] {
   width: 100%;
 }
 
-#work-process .text-work .texts{
+#work-process .text-work .texts, .text-2 p {
   width: 100%;
+  margin-top: 25px;
 }
-
-
 
 #work-process .text-work h3 {
     font-size: 48px;
