@@ -684,7 +684,7 @@ input[type='checkbox'] {
 }
 
 #work-process .text-work h3 {
-    font-size: 48px;
+    font-size: 35px;
     width: 100%;
 }
 
@@ -693,7 +693,7 @@ input[type='checkbox'] {
 }
 
 #work-process .flex .text-checks{
-  font-size: 24px;
+  font-size: 20px;
   margin-right: 15px;
   width: 100%;
 }
@@ -732,11 +732,11 @@ input[type='checkbox'] {
 }
 
 .text-2 h3{
-  font-size: 48px;
+  font-size: 35px;
 }
 
 .text-2 p{
-  font-size: 24px;
+  font-size: 20px;
 }
 
 #right-side-work .right-work-process {
@@ -1042,4 +1042,17 @@ width: 100%;
 .lbl-toggle .lbl{
   font-size: 20px;
 }
+
+.service-textcar p {
+  font-size: larger;
+    color: black;
+}
+
+.service-textcar h2 {
+  color: black;
+}
+
+/*#auto-diagnostics .auto-diagnosed {
+  flex-direction: column;
+}*/
 }
