@@ -244,9 +244,10 @@ margin-bottom: 13px;
   #offer-section .offers .offer-box{
     background: white;
     height: 232px;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
+    padding-top: 100px;
     margin-bottom: 12px;
     width: 24%;
   }
@@ -260,7 +261,6 @@ margin-bottom: 13px;
     flex-wrap: wrap;
     margin-top: 40px;
     margin-bottom: 15px;
-    
   }
   
   #offer-section .offers .offer-box:hover{
@@ -649,6 +649,7 @@ input[type='checkbox'] {
   justify-items: center;
   align-items: center;
   text-align: center;
+  padding-top: 100px;
   margin-bottom: 12px;
   width: 49%;
 }
@@ -671,7 +672,7 @@ input[type='checkbox'] {
 }
 
 #work-process {
-  width: 45%;
+  width: 48%;
 }
 
 #work-process .text-work h3 {
@@ -679,7 +680,7 @@ input[type='checkbox'] {
 }
 
 #work-process .texts {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 #work-process .flex .text-checks{
@@ -693,15 +694,26 @@ input[type='checkbox'] {
 }
 
 .img-1{
-  margin-top: 60px;
-  width: 304px;
+  margin-top: 20px;
 }
 
-#work-process .work-flex {
+#work-process {
   display: flex;
   justify-content: space-between;
 }
 
+.right-work-process {
+  margin-left: 160px;
+  padding-bottom: 80px;
+}
+
+#work-process .text-2 h3 {
+  font-size: 48px;
+}
+
+#work-process .text-2 p {
+  font-size: 24px;
+}
 
 
 /*tablet-view*/
@@ -873,7 +885,10 @@ input[type='checkbox'] {
     flex-direction: column;
     width: 100%;
   }
-
+  .brand-header {
+    padding-top: 50px;
+  }
+  
   .brand-header h3 {
     font-size: 35px;
     width: 100%;
@@ -900,6 +915,8 @@ input[type='checkbox'] {
 
 .flex-1 {
   flex-direction: column;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .left-side h3 {
@@ -945,7 +962,9 @@ input[type='checkbox'] {
 #tools-section .car-section, #tools-section .orange-section, #tools-section .auto-section{
   width: 100%;
 }
-
+.orange-section button {
+  margin-bottom: 14px;
+}
 
 .custom-header h3 {
   font-size: 35px;
@@ -974,6 +993,10 @@ input[type='checkbox'] {
 
 #offer-section h5{
 width: 100%;
+}
+
+.service-textcar{
+  background: none;
 }
 
 }
