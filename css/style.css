@@ -751,10 +751,13 @@ input[type='checkbox'] {
   font-size: 30px;
 }
 
-.copy {
+/*.copy {
   display: none;
-}
+}*/
 
+.service-textcar {
+   background: none;
+   color: #000;
 }
 
 @media(max-width: 426px) {
@@ -888,7 +891,7 @@ input[type='checkbox'] {
   .brand-header {
     padding-top: 50px;
   }
-  
+
   .brand-header h3 {
     font-size: 35px;
     width: 100%;
@@ -997,6 +1000,10 @@ width: 100%;
 
 .service-textcar{
   background: none;
+}
+
+.lbl-toggle .lbl{
+  font-size: 20px;
 }
 
 }
