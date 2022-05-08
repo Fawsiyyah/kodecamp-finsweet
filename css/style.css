@@ -564,6 +564,10 @@ input[type='checkbox'] {
   background-position: left;
 }
 
+#our-services .serviced1  {
+  margin-right: 20px;
+}
+
 #Our-services {
   background-color: white;
 }
@@ -761,6 +765,7 @@ input[type='checkbox'] {
 .service-textcar {
    background: none;
    color: #000;
+}
 }
 
 @media(max-width: 426px) {
