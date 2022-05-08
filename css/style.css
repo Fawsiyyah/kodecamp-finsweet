@@ -758,9 +758,9 @@ input[type='checkbox'] {
   font-size: 30px;
 }
 
-/*.copy {
+.copy {
   display: none;
-}*/
+}
 
 .service-textcar {
    background: none;
@@ -769,7 +769,7 @@ input[type='checkbox'] {
 }
 
 @media(max-width: 426px) {
-  
+
   .main-header {
     flex-direction: column;
     align-items: flex-start;
