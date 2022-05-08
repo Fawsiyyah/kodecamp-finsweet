@@ -561,11 +561,11 @@ input[type='checkbox'] {
 
 #Our-services .serviced1 {
   background: url(../img/1st\ service.png) no-repeat;
-  background-position: left;
+  background-position: justify;
 }
 
-#our-services .serviced1  {
-  margin-right: 20px;
+#our-services .serviced1 .service-imagecar {
+  padding-left: 100px;
 }
 
 #Our-services {
@@ -674,19 +674,19 @@ input[type='checkbox'] {
   display: flex;
   justify-content: space-between;
 }
+#work-process{
+  width: 100%;
+}
+
+#work-process .text-work .texts{
+  width: 100%;
+}
 
 
 
 #work-process .text-work h3 {
     font-size: 48px;
-    width: 489px;
-    height: 134px;
-}
-
-#work-process .text-work p {
-  font-size: 24px;
-  height: 72px;
-  width: 443px;
+    width: 100%;
 }
 
 #work-process .texts {
@@ -696,6 +696,7 @@ input[type='checkbox'] {
 #work-process .flex .text-checks{
   font-size: 24px;
   margin-right: 15px;
+  width: 100%;
 }
 
 #work-process {
@@ -708,44 +709,46 @@ input[type='checkbox'] {
 
 .car-flex{
   display: flex;
-}
-.img-1{
-  margin-top: 20px;
- height: 477px;
- width: 304px;
- margin-left: 10px;
+  justify-content: space-between;
 }
 
-.img-2{
-  width: 304px;
+.car-flex .img-1, .car-flex .img-2{
   margin-top: 20px;
- height: 477px;
- margin-left: 10px;
+ width: 49%;
+  
 }
 
- .car-flex{
-  margin-right: 100px;
+.car-flex {
+  padding-right: 100px;
+}
+
+#right-side-work{
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+.right-work-process .text-2{
+  width: 70%;
+  min-height: 100vh;
 }
 
 .text-2 h3{
   font-size: 48px;
-  height: 201px;
-width: 547px;
 }
 
 .text-2 p{
   font-size: 24px;
-  height: 160px;
-width: 512px;
 }
 
-#right-side-work .right-work-process{
+#right-side-work .right-work-process {
   display: flex;
   justify-content: space-between;
 }
 
+
 #work-process .works {
   display: flex;
+  justify-content: space-between;
 }
 
 
