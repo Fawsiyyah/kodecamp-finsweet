@@ -679,6 +679,14 @@ input[type='checkbox'] {
 
 #work-process .text-work h3 {
     font-size: 48px;
+    width: 489px;
+    height: 134px;
+}
+
+#work-process .text-work p {
+  font-size: 24px;
+  height: 72px;
+  width: 443px;
 }
 
 #work-process .texts {
@@ -703,23 +711,41 @@ input[type='checkbox'] {
 }
 .img-1{
   margin-top: 20px;
-  margin-right: 10px;
+ height: 477px;
+ width: 304px;
+ margin-left: 10px;
 }
-.text-2{
-  margin-left: 50px;
+
+.img-2{
+  width: 304px;
+  margin-top: 20px;
+ height: 477px;
+ margin-left: 10px;
+}
+
+ .car-flex{
+  margin-right: 100px;
 }
 
 .text-2 h3{
   font-size: 48px;
+  height: 201px;
+width: 547px;
 }
 
 .text-2 p{
   font-size: 24px;
+  height: 160px;
+width: 512px;
 }
 
 #right-side-work .right-work-process{
   display: flex;
   justify-content: space-between;
+}
+
+#work-process .works {
+  display: flex;
 }
 
 
