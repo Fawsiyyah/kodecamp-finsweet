@@ -1044,15 +1044,53 @@ width: 100%;
 }
 
 .service-textcar p {
-  font-size: larger;
     color: black;
+    font-size: 24px;
+    width: 100%;
+    padding-right: 50px;
 }
 
 .service-textcar h2 {
   color: black;
 }
 
-/*#auto-diagnostics .auto-diagnosed {
+#auto-diagnostics .auto-diagnosed {
   flex-direction: column;
-}*/
+}
+
+#Our-services .serviced1 {
+  background-position: center;
+    background-size: cover;
+}
+
+.image-diagnostics img {
+  width: 60%;
+}
+
+#auto-diagnostics .text-diagnostics h2 {
+  font-size: 35px;
+}
+
+auto-diagnostics .text-diagnostics p {
+  font-size: 20px;
+  width: 60%;
+}
+
+#auto-diagnostics .diagnostics {
+  height: 500px;
+}
+
+auto-diagnostics .offers .offer-box {
+  width: 100%;
+}
+
+#work-process .works, #right-side-work .right-work-process {
+   flex-direction: column;
+}
+
+.right-work-process .text-2 {
+  order: 2;
+  width: 100%;
+}
+
 }
